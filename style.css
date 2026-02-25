@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #cfd3da;
+    padding: 40px;
+}
+
+.container {
+    max-width: 1400px;
+    margin: auto;
+}
+
+/* Caixa superior */
+.header-box {
+    background-color: #b9c4d6;
+    padding: 30px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+.header-box h1 {
+    color: #1e3c70;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.header-box p {
+    color: #1e3c70;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.header-box a {
+    color: #1e3c70;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Botões */
+.btn {
+    display: block;
+    width: 100%;
+    padding: 18px;
+    margin-bottom: 20px;
+    background-color: #223f75;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #1a2f57;
+    transform: scale(1.01);
+}
+
+/* Lista inferior */
+.compras {
+    margin-top: 30px;
+}
+
+.compras h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.compras ul {
+    list-style: none;
+}
+
+.compras li {
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    body {
+        padding: 20px;
+    }
+
+    .header-box h1 {
+        font-size: 24px;
+    }
+
+    .btn {
+        font-size: 12px;
+    }
+}
